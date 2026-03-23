@@ -4,7 +4,7 @@ public class BookAllocation {
     public static int minPages(int[] arr,int m){
         int low=Arrays.stream(arr).min().getAsInt();
         int high=Arrays.stream(arr).sum();
-        int ans=0;
+        
         while(low<=high){
             int stu=0;
             int count=1;

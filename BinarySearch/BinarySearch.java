@@ -1,6 +1,6 @@
 package Sorting;
 
-public class binarySearch {
+public class BinarySearch {
     public static int bs(int[] arr,int low,int high,int target){
         if(low>high){
             return -1;
