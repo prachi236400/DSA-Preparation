@@ -1,4 +1,4 @@
-
+package BinarySearch;
 import java.util.*;
 public class BookAllocation {
     public static int minPages(int[] arr,int m){

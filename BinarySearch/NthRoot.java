@@ -1,3 +1,4 @@
+package BinarySearch;
 public class NthRoot {
     public  static int findNthRoot(int n,int m){
         int low=0;

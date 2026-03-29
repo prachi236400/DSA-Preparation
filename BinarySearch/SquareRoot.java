@@ -1,3 +1,4 @@
+package BinarySearch;
 public class SquareRoot {
     public static int squareRoot(int num){
         int low=1;

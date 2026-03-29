@@ -1,3 +1,4 @@
+package BinarySearch;
 public class SingleElement{
     public static int findSingle(int[] arr){
         int low=0;

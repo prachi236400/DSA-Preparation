@@ -1,3 +1,4 @@
+package BinarySearch;
 public class rowWithMax1 {
     public static int lowerBound(int[] arr, int x){
         int low=0;

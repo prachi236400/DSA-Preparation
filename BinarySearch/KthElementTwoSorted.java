@@ -1,3 +1,4 @@
+package BinarySearch;
 public class KthElementTwoSorted{
     public static int findKthElement(int[] arr1,int[] arr2,int k){
         int n1=arr1.length;
