@@ -6,7 +6,7 @@ public class CreateNode {
 
         Node(int data,Node next){
             this.data=data;
-            this.next=null;
+            this.next=next;
         }
         Node(int data){
             this.data=data;
