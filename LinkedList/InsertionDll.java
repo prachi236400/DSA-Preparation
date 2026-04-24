@@ -1,5 +1,4 @@
 package LinkedList;
-
 public class InsertionDll {
     static class Node{
         int data;
@@ -88,6 +87,23 @@ return head;
 
 
     }
+    public static Node reverseList(Node head){
+        Node temp=head;
+        Node last=null;
+        while(temp!=null){
+            last=temp.back;
+
+            temp.back=temp.next;
+            temp.next=last;
+            temp=temp.back;
+
+        }
+        if(last!=null){
+            head=last.back;
+        }
+        return head;
+        
+    }
 
     public static void main(String[] args){
         int[] arr={3,5,62,7,8};
@@ -96,14 +112,16 @@ return head;
         int pos=3;
         Node head=convertArrToAll(arr);
         print(head);
-        head=addNodeAtHead(head,val);
-        print(head);
-        head=addAtTail(head,val1);
-        print(head);
-        head=addAtK(head,pos,val);
+        // head=addNodeAtHead(head,val);
+        // print(head);
+        // head=addAtTail(head,val1);
+        // print(head);
+        // head=addAtK(head,pos,val);
 
-        print(head);
-        head=addNode(head,val1);
+        // print(head);
+        // head=addNode(head,val1);
+        // print(head);
+        head=reverseList(head);
         print(head);
 
     }
